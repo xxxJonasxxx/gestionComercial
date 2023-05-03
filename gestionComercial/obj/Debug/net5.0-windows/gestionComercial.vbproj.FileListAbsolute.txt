@@ -16,3 +16,5 @@ C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\obj\Debug\net5.0
 C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\obj\Debug\net5.0-windows\ref\gestionComercial.dll
 C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\obj\Debug\net5.0-windows\gestionComercial.pdb
 C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\obj\Debug\net5.0-windows\gestionComercial.genruntimeconfig.cache
+C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\bin\Debug\net5.0-windows\SAPBusinessOneSDK.dll
+C:\Users\egarcia\source\repos\gestionComercial\gestionComercial\obj\Debug\net5.0-windows\gestionComercial.vbproj.CopyComplete
