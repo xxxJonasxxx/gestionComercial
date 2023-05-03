@@ -22,19 +22,19 @@ Partial Class frmLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtUser = New System.Windows.Forms.TextBox()
         Me.btnSend = New System.Windows.Forms.Button()
         Me.lblUser = New System.Windows.Forms.Label()
         Me.lblPassword = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtUser
         '
-        Me.TextBox1.Location = New System.Drawing.Point(111, 34)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox1.TabIndex = 0
+        Me.txtUser.Location = New System.Drawing.Point(111, 34)
+        Me.txtUser.Name = "txtUser"
+        Me.txtUser.Size = New System.Drawing.Size(100, 23)
+        Me.txtUser.TabIndex = 0
         '
         'btnSend
         '
@@ -63,23 +63,23 @@ Partial Class frmLogin
         Me.lblPassword.TabIndex = 3
         Me.lblPassword.Text = "Contraseña"
         '
-        'TextBox2
+        'txtPassword
         '
-        Me.TextBox2.Location = New System.Drawing.Point(111, 71)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox2.TabIndex = 4
+        Me.txtPassword.Location = New System.Drawing.Point(111, 71)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(100, 23)
+        Me.txtPassword.TabIndex = 4
         '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(277, 180)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.lblPassword)
         Me.Controls.Add(Me.lblUser)
         Me.Controls.Add(Me.btnSend)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtUser)
         Me.Name = "frmLogin"
         Me.Text = "Log-in"
         Me.ResumeLayout(False)
@@ -87,9 +87,9 @@ Partial Class frmLogin
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtUser As TextBox
     Friend WithEvents btnSend As Button
     Friend WithEvents lblUser As Label
     Friend WithEvents lblPassword As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtPassword As TextBox
 End Class
