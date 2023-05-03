@@ -41,7 +41,7 @@ Partial Class frmLogin
         Me.btnSend.Location = New System.Drawing.Point(94, 133)
         Me.btnSend.Name = "btnSend"
         Me.btnSend.Size = New System.Drawing.Size(75, 23)
-        Me.btnSend.TabIndex = 1
+        Me.btnSend.TabIndex = 2
         Me.btnSend.Text = "Enviar"
         Me.btnSend.UseVisualStyleBackColor = True
         '
@@ -57,7 +57,7 @@ Partial Class frmLogin
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
-        Me.lblPassword.Location = New System.Drawing.Point(41, 71)
+        Me.lblPassword.Location = New System.Drawing.Point(41, 74)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(67, 15)
         Me.lblPassword.TabIndex = 3
@@ -68,7 +68,8 @@ Partial Class frmLogin
         Me.txtPassword.Location = New System.Drawing.Point(111, 71)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(100, 23)
-        Me.txtPassword.TabIndex = 4
+        Me.txtPassword.TabIndex = 1
+        Me.txtPassword.UseSystemPasswordChar = True
         '
         'frmLogin
         '
